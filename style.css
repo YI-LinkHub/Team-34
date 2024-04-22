@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.head{
+    height: 450px;
+    width: 100%;
+    background: url(https://i.postimg.cc/ncYg02L5/ewan-robertson-f-Ds-CIIGdw9g-unsplash-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+
+.card{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.card h1{
+    font-size: 50px;
+    color: #11ff00;
+}
+
+.card p{
+    font-size: 35px;
+    
+}
+.main{
+    margin: 0 auto;
+    background: #005057;
+    height: 2500px;
+    width: 100%;
+}
+
+.c1{
+    margin: 0 auto;
+    height: 400px;
+    width: 85%;
+    padding: 10px;
+}
+
+.c1 h1{
+    color: #26ff00;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.c1 ul{
+    list-style: none;
+}
+
+.l ul{
+    width: 45%;
+    float: right;
+}
+
+.r ul {
+    width: 40%;
+    float: left;
+}
+
+.r ul li{
+    text-align: right;
+    color: #00eaff;
+    font-size: 25px;
+}
+
+.l ul li{
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+
+.c2{
+    margin: 0 auto;
+    width: 85%;
+}
+
+.c2_a{
+    background: #00ff18;
+    border-radius: 30px;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 0px 9px #95ffe0;
+}
+
+.c2_a h1{
+    padding-top: 20px;
+    text-align: center;
+    color: #006a73;
+    font-size: 50px;
+}
+
+
+.c2_a p{
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.c2_a a{
+    text-align: center;
+    text-decoration: none;
+    color: #1100ff;
+    text-shadow: 2px 0px 5px black;
+    font-size: 50px;
+    
+}
+
+.c2_a a:hover{
+    font-size: 55px;
+    color: red;
+    transition: 3s;
+}
+
+
+.c3 {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 85%;
+}
+
+.c3 h1{
+    color: white;
+    font-size: 30px;
+}
+.c3 marquee{
+    color: #00ffff;
+    background: black;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.c4{
+   margin: 0 auto;
+   padding-top: 50px;
+   width: 85%;
+   height: 1500px;
+}
+
+
+.c4_1{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+.c4_1 h1{
+    color: #00ff03;
+    text-align : center;
+    font-size: 50px;
+    text-shadow: 2px 0 3px #00ff03;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.c4_1 h2{
+    padding-top: 40px;
+    color: black;
+    font-size: 35px;
+    padding-left: 20px;
+}
+
+.hr{
+    background: red;
+    width: 80%;
+    height: 3px;
+    text-align: right;
+    
+}
+
+.c4_2 {
+    background: #ababab;
+    height: 190px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.c4_2 p{
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+}
+
+.c4_1 h3{
+    padding-top: 60px;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+
+
+.last{
+    height: 300px;
+    width: 100%;
+    background: #0e42ab;
+    
+}
+
+.last h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 140px;
+}
+
+
+@media (max-width: 460px){
+    .head{
+        height: 300px;
+    }
+    
+    .card h1{
+    font-size: 35px;
+    }
+    .card p{
+        font-size: 30px;
+    }
+    
+    .c1 h1{
+        font-size: 30px;
+    }
+    .r ul li{
+        font-size: 15px;
+    }
+    .l ul li{
+        font-size: 15px;
+    }
+    
+    .c2_a h1{
+        font-size: 30px;
+    }
+    
+    .c2_a p{
+        font-size: 20px;
+    }
+    
+    .c2_a a{
+        font-size: 33px;
+    }
+    
+    .c2_a a:hover{
+        font-size: 40px;
+    }
+    
+    .c3 h1{
+        font-size: 20px;
+    }
+    .c3 marquee{
+        font-size: 19px;
+    }
+    
+   .c4_1 h1{
+       font-size: 30px;
+   }
+   
+      .c4_1 h2{
+       font-size: 25px;
+   }
+   
+  .c4_1 p{
+      font-size: 20px;
+  }
+  
+ .c4_1 h3{
+     font-size: 35px;
+ }
+.last{
+    height: 200px;
+}
+.last h1{
+    
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 80px;
+}
+
+.c1{
+    height: 250px;
+}
+}
+
+
+
+@media (max-width: 900px) {
+    
+    .c1 h1{
+        font-size: 40px;
+    }
+    .r ul li{
+        font-size: 20px;
+    }
+    .l ul li{
+        font-size: 20px;
+    }
+    
+    .c2_a h1{
+        font-size: 40px;
+    }
+    
+    .c2_a p{
+        font-size: 20px;
+    }
+    
+    .c2_a a{
+        font-size: 33px;
+    }
+    
+    .c2_a a:hover{
+        font-size: 40px;
+    }
+    
+    .c3 h1{
+        font-size: 20px;
+    }
+    .c3 marquee{
+        font-size: 19px;
+    }
+    
+   .c4_1 h1{
+       font-size: 30px;
+   }
+   
+      .c4_1 h2{
+       font-size: 25px;
+   }
+   
+  .c4_1 p{
+      font-size: 20px;
+  }
+  
+ .c4_1 h3{
+     font-size: 35px;
+ }
+.last{
+    height: 200px;
+}
+.last h1{
+    
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 80px;
+}
+
+.c1{
+    height: 300px;
+}
+}
