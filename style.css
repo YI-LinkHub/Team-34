@@ -38,7 +38,7 @@
 .main{
     margin: 0 auto;
     background: #005057;
-    height: 3000px;
+    height: auto;
     width: 100%;
 }
 
